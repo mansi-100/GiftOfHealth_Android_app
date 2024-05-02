@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_aadya_eye_hospital.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_aagman_hospital.xml" value="0.215625" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_add_doc.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_admin_login.xml" value="0.20677083333333332" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_admin_menu.xml" value="0.264" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_admin_register.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_after_login'.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_agraval_hospital.xml" value="0.215625" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_appointment.xml" value="0.16265060240963855" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_appointment_doc.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_balaji_hospital.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_chat.xml" value="0.16799999999999998" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_civil_hospital.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_deep_care.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_delete_doc.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_delete_patient.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_devsaya_hospital.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_delete.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_list.xml" value="0.24855491329479767" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_list2.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_login.xml" value="0.264" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_menu.xml" value="0.176" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type1.xml" value="0.21203703703703702" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type10.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type11.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type12.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type13.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type14.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type15.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type16.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type17.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type18.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type19.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type2.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type20.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type21.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type22.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type3.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type4.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type5.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type6.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type7.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type8.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_type9.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doc_update.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doctor_list.xml" value="0.25" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doctor_profile.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_doctor_registration.xml" value="0.152" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_edit_profile_doctor.xml" value="0.2171875" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_edit_profile_patient.xml" value="0.22239583333333332" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_feedback.xml" value="0.10400000000000001" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_gold_river_hospital.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_haard_hospital.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_hospital_list.xml" value="0.264" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_inside_chat.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_karanavati_hospital.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_login_options.xml" value="0.2601851851851852" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_main3.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_manage_doc.xml" value="0.2" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_manage_patient.xml" value="0.264" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_map_aanad.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_new_appointment.xml" value="0.264" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_nikunj_hospital.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_nirmal_hospital.xml" value="0.2328125" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_patient_details.xml" value="0.2" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_patient_registration.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_payment.xml" value="0.264" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_post_doc_login.xml" value="0.22239583333333332" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_prathana_hospital.xml" value="0.15185185185185185" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_registration_options.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_report_issue.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_rugved_hospital.xml" value="0.15185185185185185" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_sardaar_hospital.xml" value="0.15185185185185185" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_search_doctor.xml" value="0.176" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_shaardaben_hospital.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_splash_screen.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_thank.xml" value="0.2171875" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_update_doc.xml" value="0.22239583333333332" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_view_profile.xml" value="0.264" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_vikaas_eye_hospital.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/activity_zydus_hospital.xml" value="0.15185185185185185" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/appointment_layout.xml" value="0.176" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/col.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/color.xml" value="0.23541666666666666" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/doctor_list.xml" value="0.264" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/single_item.xml" value="0.264" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/text_row_item.xml" value="0.23645833333333333" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/layout/thanks.xml" value="0.21614583333333334" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/menu/menu.xml" value="0.264" />
+        <entry key="..\:/androidstudio/GiftOfHealth/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1385" />
+        <entry key="..\:/androidstudio/hello/app/src/main/res/layout/activity_admin.xml" value="0.1" />
+        <entry key="..\:/androidstudio/hello/app/src/main/res/layout/activity_admin_registration.xml" value="0.1" />
+        <entry key="..\:/androidstudio/hello/app/src/main/res/layout/activity_database.xml" value="0.2" />
+        <entry key="..\:/androidstudio/hello/app/src/main/res/layout/activity_doctor_registration.xml" value="0.2" />
+        <entry key="..\:/androidstudio/hello/app/src/main/res/layout/activity_login_options.xml" value="0.264" />
+        <entry key="..\:/androidstudio/hello/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/androidstudio/hello/app/src/main/res/layout/activity_main2.xml" value="0.264" />
+        <entry key="..\:/androidstudio/hello/app/src/main/res/layout/activity_patient_details.xml" value="0.2" />
+        <entry key="..\:/androidstudio/hello/app/src/main/res/layout/activity_patient_registration.xml" value="0.264" />
+        <entry key="..\:/androidstudio/hello/app/src/main/res/layout/activity_registeration_admin.xml" value="0.20677083333333332" />
+        <entry key="..\:/androidstudio/hello/app/src/main/res/layout/activity_registration.xml" value="0.176" />
+        <entry key="..\:/androidstudio/hello/app/src/main/res/layout/activity_registration_options.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

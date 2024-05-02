@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hello">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Gift of Health"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hello"
+        tools:targetApi="31">
+        <activity
+            android:name=".ReportIssue"
+            android:label="Do You Have Any Issue  ?"
+            android:exported="false"
+            android:parentActivityName="com.example.GiftOfHealth.patient_details"/>
+        <activity
+            android:name=".EditProfile_doctor"
+            android:exported="false"
+            android:label="Edit Profile"
+            android:parentActivityName=".doc_menu" />
+        <activity
+            android:name=".splashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditProfile_patient"
+            android:exported="false"
+            android:label="Edit Profile"
+            android:parentActivityName="com.example.GiftOfHealth.patient_details" />
+        <activity
+            android:name=".managePatient"
+            android:exported="false"
+            android:label="Manage Patient"
+            android:parentActivityName=".admin_menu" />
+        <activity
+            android:name=".manageDoc"
+            android:exported="false"
+            android:label="Manage Doctor"
+            android:parentActivityName=".admin_menu" />
+        <activity
+            android:name=".thank"
+            android:exported="false"
+            android:label="Thank You So Much" />
+        <activity
+            android:name=".delete_patient"
+            android:exported="false"
+            android:label="Delete Patient"
+            android:parentActivityName=".admin_menu" />
+        <activity
+            android:name=".delete_doc"
+            android:exported="false"
+            android:label="Delete Doctor"
+            android:parentActivityName=".admin_menu" />
+        <activity
+            android:name=".admin_menu"
+            android:exported="false"
+            android:label="Choose Any Option "
+            android:parentActivityName=".admin_login" />
+        <activity
+            android:name=".admin_register"
+            android:exported="false" />
+        <activity
+            android:name=".doc_menu"
+            android:exported="false"
+            android:label="Choose Options"
+            android:parentActivityName=".doc_menu" />
+        <activity
+            android:name=".Feedback"
+            android:exported="false"
+            android:label="Feedback Page"
+            android:parentActivityName=".payment" />
+        <activity
+            android:name=".payment"
+            android:exported="false"
+            android:label="Payment Page"
+            android:parentActivityName=".appointment_doc" />
+        <activity
+            android:name=".post_doc_login"
+            android:exported="false"
+            android:label="Appointment List"
+            android:parentActivityName=".doc_menu" />
+        <activity
+            android:name=".new_Appointment"
+            android:exported="false"
+            android:label="Book New Appointment"
+            android:parentActivityName=".Appointment" />
+        <activity
+            android:name=".appointment_doc"
+            android:exported="false"
+            android:label="Appointment Status"
+            android:parentActivityName=".Appointment" />
+        <activity
+            android:name=".doc_type21"
+            android:exported="false"
+            android:label="Other Disease"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type20"
+            android:exported="false"
+            android:label="Cardiologist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type19"
+            android:exported="false"
+            android:label="Radiologist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type18"
+            android:exported="false"
+            android:label="Oncologist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type17"
+            android:exported="false"
+            android:label="Urologist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type16"
+            android:exported="false"
+            android:label="Ophthalmologist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type15"
+            android:exported="false"
+            android:label="Emergency Physician"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type14"
+            android:exported="false"
+            android:label="Dentist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type13"
+            android:exported="false"
+            android:label="Surgeon"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type12"
+            android:exported="false"
+            android:label="Pulmonologist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type9"
+            android:exported="false"
+            android:label="Neurologist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type11"
+            android:exported="false"
+            android:label="Nephrologist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type10"
+            android:exported="false"
+            android:label="Psychiatrist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type8"
+            android:exported="false"
+            android:label="Podiatrist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type7"
+            android:exported="false"
+            android:label="Anesthesiologist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type6"
+            android:exported="false"
+            android:label="OB/GYN"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type5"
+            android:exported="false"
+            android:label="Allergist/Immunologist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type4"
+            android:exported="false"
+            android:label="Rheumatologist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type3"
+            android:exported="false"
+            android:label="Endocrinologist"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type2"
+            android:exported="false"
+            android:label="Pediatrician"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doc_type1"
+            android:exported="false"
+            android:label="General Practitioner"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".admin_login"
+            android:exported="false"
+            android:label="Admin Login"
+            android:parentActivityName="com.example.GiftOfHealth.Login_options" />
+        <activity
+            android:name=".doc_login"
+            android:exported="false"
+            android:label="Doctor Login"
+            android:parentActivityName="com.example.GiftOfHealth.Login_options" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCxOCIRxMo0JftqE94nSuhrKtUqXs5MlrE" />
+
+        <activity
+            android:name=".Sardaar_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_sardaar_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Pooja_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_pooja_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Pragati_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_pragati_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".nikunj_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_nikunj_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Matru_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_matru_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".krishana_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_krishana_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Haard_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_haard_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Kedila_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_kedila_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".devsaya_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_devsaya_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Deep_care"
+            android:exported="false"
+            android:label="@string/title_activity_deep_care"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".zydus_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_zydus_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".agraval_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_agraval_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".suyogya__hospital"
+            android:exported="false"
+            android:label="@string/title_activity_suyogya_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Karanavati_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_karanavati_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".civil_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_civil_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Shalby_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_shalby_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Laxmi_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_laxmi_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Narayana_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_narayana_hospital" />
+        <activity
+            android:name=".Aalok_ortho_care"
+            android:exported="false"
+            android:label="@string/title_activity_aalok_ortho_care"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Aakar_Hospital"
+            android:exported="false"
+            android:label="@string/title_activity_aakar_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Vikaas_Eye_Hospital"
+            android:exported="false"
+            android:label="@string/title_activity_vikaas_eye_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Aadya_Eye_Hospital"
+            android:exported="false"
+            android:label="@string/title_activity_aadya_eye_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Aagman_Hospital"
+            android:exported="false"
+            android:label="@string/title_activity_aagman_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Prasaad_Hospital"
+            android:exported="false"
+            android:label="@string/title_activity_prasaad_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Prathana_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_prathana_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Shaardaben_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_shaardaben_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Rugved_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_rugved_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Sola_civil_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_sola_civil_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Nirmal_hospital"
+            android:exported="false"
+            android:label="@string/title_activity_nirmal_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Balaji_Hospital"
+            android:exported="false"
+            android:label="@string/title_activity_balaji_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".Gold_River_Hospital"
+            android:exported="false"
+            android:label="@string/title_activity_gold_river_hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".map_aanad"
+            android:exported="false"
+            android:label="Anand Surgical Hospital"
+            android:parentActivityName=".hospital_list" />
+        <activity
+            android:name=".hospital_list"
+            android:exported="false"
+            android:label="Hospital&apos;s List"
+            android:parentActivityName="com.example.GiftOfHealth.patient_details" />
+        <activity
+            android:name=".Appointment"
+            android:exported="false"
+            android:label="Appointment"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".chat"
+            android:exported="false"
+            android:label="FAQ Section"
+            android:parentActivityName=".doctor_list" />
+        <activity
+            android:name=".doctor_list"
+            android:exported="false"
+            android:label="Doctor&apos;s list"
+            android:parentActivityName="com.example.GiftOfHealth.Search_Doctor" />
+        <activity
+            android:name="com.example.GiftOfHealth.Search_Doctor"
+            android:exported="false"
+            android:label="Doctor&apos;s Category"
+            android:parentActivityName="com.example.GiftOfHealth.patient_details" />
+        <activity
+            android:name="com.example.GiftOfHealth.patient_details"
+            android:exported="false"
+            android:label="Please Choose Your Options : "
+            android:parentActivityName="com.example.GiftOfHealth.patient_registration" />
+        <activity
+            android:name="com.example.GiftOfHealth.patient_registration"
+            android:exported="false"
+            android:label="Patient Registration"
+            android:parentActivityName="com.example.GiftOfHealth.MainActivity" />
+        <activity
+            android:name="com.example.GiftOfHealth.doctor_registration"
+            android:exported="false"
+            android:label="Doctor Registration"
+            android:parentActivityName="com.example.GiftOfHealth.MainActivity" />
+        <activity
+            android:name="com.example.GiftOfHealth.Registration_options"
+            android:exported="false"
+            android:label="Registration Options"
+            android:parentActivityName="com.example.GiftOfHealth.MainActivity" />
+        <activity
+            android:name="com.example.GiftOfHealth.Login_options"
+            android:exported="false"
+            android:label="Login Options"
+            android:parentActivityName="com.example.GiftOfHealth.MainActivity" />
+        <activity
+            android:name="com.example.GiftOfHealth.MainActivity2"
+            android:exported="false"
+            android:label="Login"
+            android:parentActivityName="com.example.GiftOfHealth.Login_options" />
+        <activity
+            android:name="com.example.GiftOfHealth.MainActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>
